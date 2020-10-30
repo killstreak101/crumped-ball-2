@@ -39,13 +39,13 @@ function draw() {
 	Engine.update(engine);
 	
 	
-	
+	paper1.display();
 	ground1.display();
 	box3.display();
 	box1.display();
 	box2.display();
 	image(boximage,1000,330,200,200);
-	paper1.display();
+	
 	
  
 }
